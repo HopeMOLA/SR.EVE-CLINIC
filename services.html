@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Sr. Eve’s Clinic</title>
+  <meta name="description" content="Everything Sr. Eve’s Clinic offers: women’s wellness, family planning, antenatal care, general health, testing and screening, skin care and more." />
+  <meta name="theme-color" content="#0f7f7e" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Sr. Eve’s Clinic, home">
+      <span class="logo" data-logo><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Sr. Eve’s<small>Clinic</small></span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Home</a></li>
+            <li><a class="nav__link" href="index.html#about">About Us</a></li>
+            <li><a class="nav__link" href="services.html" aria-current="page">Services</a></li>
+            <li><a class="nav__link" href="index.html#team">Our Team</a></li>
+            <li><a class="nav__link" href="patient-information.html">Patient Information</a></li>
+            <li><a class="nav__link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--primary btn--sm" href="index.html#contact" data-book aria-label="Book an appointment"><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"></use></svg> <span>Book<span class="book-long"> an Appointment</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"></use></svg><svg class="icon icon-close" aria-hidden="true"><use href="#i-x"></use></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <div class="mobile-menu__inner">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="index.html#team">Our Team</a></li>
+        <li><a href="patient-information.html">Patient Information</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="page-hero">
+    <svg class="deco deco--sprig" aria-hidden="true" viewBox="0 0 120 200"><use href="#sprig"></use></svg>
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow--center">Our Services</p>
+        <h1>Care for you and <span class="accent">your family</span></h1>
+        <p>Everything the clinic offers, in one place. Select any service to start an appointment request.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="page-section" aria-labelledby="core-services">
+    <div class="container">
+      <h2 class="h2-lg" id="core-services">Services we offer</h2>
+      <ul class="core-grid">
+        <li id="womens-wellness" class="core-card core-card--pink" data-reveal>
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-flower"></use></svg></span>
+          <div><h3>Women’s Wellness</h3><p>Support for physical, emotional and reproductive health.</p>
+            <ul class="chips"><li class="chip">Physical health</li><li class="chip">Emotional wellbeing</li><li class="chip">Reproductive health</li></ul>
+            <button class="btn btn--ghost btn--sm" type="button" data-book data-service="womens-wellness" style="margin-left:-.75rem;margin-top:.75rem">Request this service</button></div></li>
+        <li id="family-planning" class="core-card" data-reveal style="--d:.08s">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"></use></svg></span>
+          <div><h3>Family Planning</h3><p>Personalised family planning options, information and advice.</p>
+            <ul class="chips"><li class="chip">Family planning options</li><li class="chip">Information and advice</li></ul>
+            <button class="btn btn--ghost btn--sm" type="button" data-book data-service="family-planning" style="margin-left:-.75rem;margin-top:.75rem">Request this service</button></div></li>
+        <li id="antenatal-care" class="core-card core-card--pink" data-reveal>
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-baby"></use></svg></span>
+          <div><h3>Antenatal Care</h3><p>Guidance and support throughout the pregnancy journey.</p>
+            <ul class="chips"><li class="chip">Guidance and support during pregnancy</li></ul>
+            <button class="btn btn--ghost btn--sm" type="button" data-book data-service="antenatal-care" style="margin-left:-.75rem;margin-top:.75rem">Request this service</button></div></li>
+        <li id="general-health" class="core-card" data-reveal style="--d:.08s">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-stethoscope"></use></svg></span>
+          <div><h3>General Health</h3><p>Consultations, treatment and ongoing care for you and your family.</p>
+            <ul class="chips"><li class="chip">Consultations</li><li class="chip">Treatment</li><li class="chip">Ongoing care</li></ul>
+            <button class="btn btn--ghost btn--sm" type="button" data-book data-service="general-health" style="margin-left:-.75rem;margin-top:.75rem">Request this service</button></div></li>
+        <li id="testing-screening" class="core-card core-card--pink" data-reveal>
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-test-tube"></use></svg></span>
+          <div><h3>Testing &amp; Screening</h3><p>HIV and STI testing, COVID testing, Pap smears, pregnancy tests and other available screenings.</p>
+            <ul class="chips"><li class="chip">HIV and STI testing</li><li class="chip">COVID testing</li><li class="chip">Pap smears</li><li class="chip">Pregnancy tests</li><li class="chip">Other available screenings</li></ul>
+            <button class="btn btn--ghost btn--sm" type="button" data-book data-service="testing-screening" style="margin-left:-.75rem;margin-top:.75rem">Request this service</button></div></li>
+        <li id="skin-aesthetic" class="core-card" data-reveal style="--d:.08s">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"></use></svg></span>
+          <div><h3>Skin &amp; Aesthetic Care</h3><p>Skin health, skincare and available aesthetic treatments.</p>
+            <ul class="chips"><li class="chip">Skin health</li><li class="chip">Skincare</li></ul>
+            <button class="btn btn--ghost btn--sm" type="button" data-book data-service="skin-aesthetic" style="margin-left:-.75rem;margin-top:.75rem">Request this service</button></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="page-section page-section--tint" aria-labelledby="more-services">
+    <div class="container">
+      <h2 class="h2-lg" id="more-services">Additional <span class="accent">services</span></h2>
+      <ul class="extra-grid">
+        <li data-reveal><button class="extra-btn" type="button" data-book data-service="chronic-disease-management"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-activity"></use></svg></span>Chronic disease management</button></li>
+        <li data-reveal style="--d:.05s"><button class="extra-btn" type="button" data-book data-service="immunisation"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-syringe"></use></svg></span>Immunisation</button></li>
+        <li data-reveal style="--d:.1s"><button class="extra-btn" type="button" data-book data-service="wound-dressing"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-bandage"></use></svg></span>Wound dressing</button></li>
+        <li data-reveal><button class="extra-btn" type="button" data-book data-service="blood-pressure-monitoring"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-gauge"></use></svg></span>Blood pressure monitoring</button></li>
+        <li data-reveal style="--d:.05s"><button class="extra-btn" type="button" data-book data-service="glucose-testing"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-droplet"></use></svg></span>Glucose / sugar testing</button></li>
+        <li data-reveal style="--d:.1s"><button class="extra-btn" type="button" data-book data-service="weight-loss-programmes"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-scale"></use></svg></span>Weight loss programmes</button></li>
+        <li data-reveal><button class="extra-btn" type="button" data-book data-service="termination-of-pregnancy"><span class="extra-btn__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-heart"></use></svg></span>Safe termination of pregnancy services</button></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="page-section" aria-labelledby="pending">
+    <div class="container">
+      <div class="pending" data-reveal>
+        <h2 id="pending"><svg class="icon" aria-hidden="true"><use href="#i-help-circle"></use></svg> Awaiting clinic confirmation</h2>
+        <p>These items have not been confirmed by the clinic yet, so they are not listed as available services. They will move up once confirmed, or be removed.</p>
+        <ul>
+          <li><strong>Sonar / ultrasound</strong><span>Appears in the design reference only. Not listed in the services supplied by the clinic.</span></li>
+          <li><strong>Specific aesthetic treatments</strong><span>The clinic has said aesthetic treatments are available, but has not yet listed which ones.</span></li>
+          <li><strong>Other screenings</strong><span>The clinic mentioned “other available screenings” without listing them.</span></li>
+        </ul>
+      </div>
+      <div class="center-cta">
+        <a class="btn btn--primary btn--lg" href="index.html#contact" data-book><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"></use></svg> Book an Appointment</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <span class="footer__logo"><span class="logo" data-logo><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Sr. Eve’s<small>Clinic</small></span></span></span>
+      <p>Personalised, respectful women’s and family healthcare in a safe and supportive environment.</p>
+    </div>
+    <nav aria-label="Footer quick links">
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#team">Our Team</a></li>
+        <li><a href="patient-information.html">Patient Information</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer services">
+      <h2>Services</h2>
+      <ul>
+        <li><a href="services.html#womens-wellness">Women’s Wellness</a></li>
+        <li><a href="services.html#family-planning">Family Planning</a></li>
+        <li><a href="services.html#antenatal-care">Antenatal Care</a></li>
+        <li><a href="services.html#general-health">General Health</a></li>
+        <li><a href="services.html#testing-screening">Testing &amp; Screening</a></li>
+        <li><a href="services.html#skin-aesthetic">Skin &amp; Aesthetic Care</a></li>
+        <li><a href="services.html"><strong>All services</strong></a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Contact &amp; hours</h2>
+      <ul class="footer__contact">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg><span data-contact="phone"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li data-contact="whatsapp" hidden></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg><span data-contact="email"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-map-pin"></use></svg><span data-contact="address"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg><dl><div><dt>Monday – Friday</dt><dd>08:30 – 19:00</dd></div><div><dt>Saturday – Sunday</dt><dd>09:00 – 14:00</dd></div></dl></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>© <span data-year>2026</span> Sr. Eve’s Clinic. All rights reserved.</p>
+      <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li></ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

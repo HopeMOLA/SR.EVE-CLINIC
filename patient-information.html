@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Information | Sr. Eve’s Clinic</title>
+  <meta name="description" content="Preparing for your visit, appointment enquiries and cancellations, payment information, privacy and frequently asked questions." />
+  <meta name="theme-color" content="#0f7f7e" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Sr. Eve’s Clinic, home">
+      <span class="logo" data-logo><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Sr. Eve’s<small>Clinic</small></span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Home</a></li>
+            <li><a class="nav__link" href="index.html#about">About Us</a></li>
+            <li><a class="nav__link" href="services.html">Services</a></li>
+            <li><a class="nav__link" href="index.html#team">Our Team</a></li>
+            <li><a class="nav__link" href="patient-information.html" aria-current="page">Patient Information</a></li>
+            <li><a class="nav__link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--primary btn--sm" href="index.html#contact" data-book aria-label="Book an appointment"><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"></use></svg> <span>Book<span class="book-long"> an Appointment</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"></use></svg><svg class="icon icon-close" aria-hidden="true"><use href="#i-x"></use></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <div class="mobile-menu__inner">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#team">Our Team</a></li>
+        <li><a href="patient-information.html" aria-current="page">Patient Information</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="page-hero">
+    <svg class="deco deco--sprig" aria-hidden="true" viewBox="0 0 120 200"><use href="#sprig"></use></svg>
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow--center">Patient Information</p>
+        <h1>Everything you need <span class="accent">before your visit</span></h1>
+        <p>Guidance on appointments, services, payment and how we look after your information.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="page-section">
+    <div class="container info-grid">
+      <section class="info-card" data-reveal aria-labelledby="ic-prepare">
+        <span class="info-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-clipboard-list"></use></svg></span>
+        <h2 id="ic-prepare">Preparing for your appointment</h2>
+        <p><em>General suggestions. The clinic may add specific instructions for some services.</em></p>
+        <ul>
+          <li>Bring a list of any medication you currently take.</li>
+          <li>Bring any relevant previous health records, if you have them.</li>
+          <li>Note down your questions so you can cover them during your visit.</li>
+          <li>Arrive a few minutes early.</li>
+        </ul>
+      </section>
+
+      <section class="info-card" data-reveal style="--d:.08s" aria-labelledby="ic-services">
+        <span class="info-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-heart"></use></svg></span>
+        <h2 id="ic-services">Available services</h2>
+        <p>From women’s wellness and family planning to testing, screening and general health.</p>
+        <p><a href="services.html">See the full services list</a></p>
+      </section>
+
+      <section class="info-card" data-reveal style="--d:.16s" aria-labelledby="ic-enquiries">
+        <span class="info-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-calendar-days"></use></svg></span>
+        <h2 id="ic-enquiries">Enquiries and cancellations</h2>
+        <p>Open Monday – Friday, 08:30 to 19:00, and Saturday – Sunday, 09:00 to 14:00.</p>
+        <p>To change or cancel, please contact the clinic as early as you can.</p>
+        <p><a href="index.html#contact">Contact details</a></p>
+      </section>
+
+      <section class="info-card" data-reveal aria-labelledby="ic-payment">
+        <span class="info-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-credit-card"></use></svg></span>
+        <h2 id="ic-payment">Payment and medical aid</h2>
+        <p data-payment>Payment options and medical aid information will be added here once confirmed by the clinic. Please ask when you contact us.</p>
+        <p data-payment-tbc><span class="tbc">To be confirmed by the clinic</span></p>
+      </section>
+
+      <section class="info-card" data-reveal style="--d:.08s" aria-labelledby="ic-privacy">
+        <span class="info-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-lock"></use></svg></span>
+        <h2 id="ic-privacy">Privacy and data protection</h2>
+        <p>We only collect the details needed to respond to your enquiry or appointment request.</p>
+        <p><a href="privacy.html">Read the privacy notice</a></p>
+      </section>
+
+      <section class="info-card" data-reveal style="--d:.16s" aria-labelledby="ic-book">
+        <span class="info-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-phone"></use></svg></span>
+        <h2 id="ic-book">Ready to book?</h2>
+        <p>Send an appointment request and the clinic will confirm a time with you.</p>
+        <p><a class="btn btn--primary btn--sm" href="index.html#contact" data-book>Book an Appointment</a></p>
+      </section>
+    </div>
+  </section>
+
+  <section class="page-section page-section--tint" aria-labelledby="faq-title">
+    <div class="container">
+      <h2 class="h2-lg" id="faq-title" style="text-align:center">Frequently asked <span class="accent">questions</span></h2>
+      <div class="faq">
+        <details><summary>How do I request an appointment? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div>Use any “Book an Appointment” button, complete the short request form and the clinic will contact you to confirm availability. A request is not a confirmed booking until the clinic confirms it.</div></details>
+        <details><summary>What are your opening hours? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div>We are open Monday – Friday, 08:30 to 19:00, and Saturday – Sunday, 09:00 to 14:00.</div></details>
+        <details><summary>Which services do you offer? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div>You can see everything the clinic offers on our <a href="services.html">services page</a>.</div></details>
+        <details><summary>Do you accept medical aid, and how do I pay? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div data-payment-faq>Payment options and medical aid information will be added here once confirmed by the clinic. Please ask when you contact us.</div></details>
+        <details><summary>How do I change or cancel an appointment? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div>Please contact the clinic as early as you can using the details in the <a href="index.html#contact">contact section</a> so the time can be offered to someone else.</div></details>
+        <details><summary>How is my personal information protected? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div>We only ask for what is needed to respond to your request. Read the <a href="privacy.html">privacy notice</a> for details.</div></details>
+        <details><summary>What if I have a medical emergency? <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></summary>
+          <div>This website is not for emergencies and is not monitored in real time. In an emergency, contact your local emergency services or go to the nearest emergency facility.</div></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <span class="footer__logo"><span class="logo" data-logo><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Sr. Eve’s<small>Clinic</small></span></span></span>
+      <p>Personalised, respectful women’s and family healthcare in a safe and supportive environment.</p>
+    </div>
+    <nav aria-label="Footer quick links">
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#team">Our Team</a></li>
+        <li><a href="patient-information.html">Patient Information</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer services">
+      <h2>Services</h2>
+      <ul>
+        <li><a href="services.html#womens-wellness">Women’s Wellness</a></li>
+        <li><a href="services.html#family-planning">Family Planning</a></li>
+        <li><a href="services.html#antenatal-care">Antenatal Care</a></li>
+        <li><a href="services.html#general-health">General Health</a></li>
+        <li><a href="services.html#testing-screening">Testing &amp; Screening</a></li>
+        <li><a href="services.html#skin-aesthetic">Skin &amp; Aesthetic Care</a></li>
+        <li><a href="services.html"><strong>All services</strong></a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Contact &amp; hours</h2>
+      <ul class="footer__contact">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg><span data-contact="phone"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li data-contact="whatsapp" hidden></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg><span data-contact="email"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-map-pin"></use></svg><span data-contact="address"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg><dl><div><dt>Monday – Friday</dt><dd>08:30 – 19:00</dd></div><div><dt>Saturday – Sunday</dt><dd>09:00 – 14:00</dd></div></dl></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>© <span data-year>2026</span> Sr. Eve’s Clinic. All rights reserved.</p>
+      <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li></ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

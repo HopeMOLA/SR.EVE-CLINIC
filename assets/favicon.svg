@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sr. Eve's Clinic">
+  <!-- Generic stand-in tab icon, NOT the clinic logo. Replace with the clinic's own icon when supplied. -->
+  <rect width="64" height="64" rx="16" fill="#0f7f7e"/>
+  <path d="M32 47 C14 35 16 21 25 19 C29 18 31 21 32 23 C33 21 35 18 39 19 C48 21 50 35 32 47Z" fill="#fff"/>
+</svg>

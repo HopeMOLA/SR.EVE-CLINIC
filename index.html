@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sr. Eve’s Clinic | Women’s &amp; Family Healthcare</title>
+  <meta name="description" content="Sr. Eve’s Clinic offers personalised women’s and family healthcare in a safe, supportive and respectful environment." />
+  <meta name="theme-color" content="#0f7f7e" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header__inner">
+    <a class="brand" href="#home" aria-label="Sr. Eve’s Clinic, home">
+      <span class="logo" data-logo><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Sr. Eve’s<small>Clinic</small></span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+            <li><a class="nav__link" href="#home" data-spy="home">Home</a></li>
+            <li><a class="nav__link" href="#about" data-spy="about">About Us</a></li>
+            <li><a class="nav__link" href="#services" data-spy="services">Services</a></li>
+            <li><a class="nav__link" href="#team" data-spy="team">Our Team</a></li>
+            <li><a class="nav__link" href="patient-information.html">Patient Information</a></li>
+            <li><a class="nav__link" href="#contact" data-spy="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--primary btn--sm" href="#contact" data-book aria-label="Book an appointment"><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"></use></svg> <span>Book<span class="book-long"> an Appointment</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"></use></svg><svg class="icon icon-close" aria-hidden="true"><use href="#i-x"></use></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <div class="mobile-menu__inner">
+      <ul>
+        <li><a href="#home" data-spy="home">Home</a></li>
+        <li><a href="#about" data-spy="about">About Us</a></li>
+        <li><a href="#services" data-spy="services">Services</a></li>
+        <li><a href="#team" data-spy="team">Our Team</a></li>
+        <li><a href="patient-information.html">Patient Information</a></li>
+        <li><a href="#contact" data-spy="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <span class="blob" style="left:-6rem;top:5rem;width:18rem;height:18rem;background:rgba(255,224,239,.7)" aria-hidden="true"></span>
+    <span class="blob" style="right:0;top:10rem;width:24rem;height:24rem;background:rgba(214,242,239,.7)" aria-hidden="true"></span>
+    <svg class="deco float" style="right:-1.5rem;bottom:0;height:11rem;width:auto;color:var(--teal-300)" aria-hidden="true" viewBox="0 0 120 200"><use href="#sprig"></use></svg>
+
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow hero__eyebrow" data-reveal>Welcome to Sr. Eve’s Clinic</p>
+        <h1 id="hero-title" data-reveal style="--d:.08s">Compassionate Care <span class="accent">for Every Stage of Life</span></h1>
+        <p class="hero__lead" data-reveal style="--d:.16s">We provide personalised women’s and family healthcare, offering a safe, supportive and respectful environment for you and your loved ones.</p>
+        <div class="hero__actions" data-reveal style="--d:.24s">
+          <a class="btn btn--primary btn--lg" href="#contact" data-book><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"></use></svg> Book an Appointment</a>
+          <a class="btn btn--outline btn--lg" href="#services">Explore Our Services</a>
+        </div>
+        <ul class="trust" data-reveal style="--d:.32s">
+          <li><span class="trust__icon"><svg class="icon" aria-hidden="true"><use href="#i-heart"></use></svg></span> Personalised Care</li>
+          <li><span class="trust__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"></use></svg></span> Women &amp; Family Focused</li>
+          <li><span class="trust__icon"><svg class="icon" aria-hidden="true"><use href="#i-shield-check"></use></svg></span> Safe &amp; Supportive Environment</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__photo" data-reveal="fade">
+          <div class="img-slot img-slot--top" data-slot="hero" data-alt="A smiling female healthcare practitioner in a white coat, with a stethoscope around her neck, holding a tablet">
+            <div class="placeholder" role="img" aria-label="Image placeholder: female healthcare practitioner in a white coat and teal scrubs, inside a bright, welcoming clinic">
+              <span class="placeholder__badge"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-image"></use></svg></span>
+              <span class="placeholder__tag">Image placeholder</span>
+              <span class="placeholder__hint">Female healthcare practitioner in a white coat and teal scrubs, inside a bright, welcoming clinic.</span>
+              <span class="placeholder__file">Add <code>assets/images/hero.jpg</code>, then set it in <code>js/config.js</code></span>
+            </div>
+          </div>
+        </div>
+
+        <form class="booking-card" id="hero-booking" aria-labelledby="hero-card-title" action="#contact" data-reveal style="--d:.4s" novalidate>
+          <h2 id="hero-card-title"><svg class="icon" aria-hidden="true"><use href="#i-calendar-days"></use></svg> Book an Appointment</h2>
+          <p class="booking-card__intro" id="hero-card-intro">Tell us what you need and when. The clinic will confirm availability.</p>
+          <div class="field">
+            <label class="sr-only" for="hc-service">Select Service</label>
+            <div class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-stethoscope"></use></svg>
+              <select class="control" id="hc-service" name="service"><option value="">Select Service</option></select></div>
+          </div>
+          <div class="field">
+            <label class="sr-only" for="hc-date">Select Date</label>
+            <div class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-calendar-days"></use></svg>
+              <input class="control" type="date" id="hc-date" name="date" aria-describedby="hc-date-error" /></div>
+            <p class="field__error" id="hc-date-error" hidden></p>
+          </div>
+          <div class="field">
+            <label class="sr-only" for="hc-time">Select Time</label>
+            <div class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
+              <select class="control" id="hc-time" name="time" disabled aria-describedby="hc-time-hint"><option value="">Select Time</option></select></div>
+            <p class="field__hint" id="hc-time-hint">Choose a date first.</p>
+          </div>
+          <button class="btn btn--primary btn--block" type="submit" id="hc-submit"><span id="hc-submit-label">Request This Time</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></button>
+          <p class="booking-card__note">Takes about a minute · Confirmed by the clinic</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section services" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow--center">Our Services</p>
+        <h2 class="section-title" id="services-title">Comprehensive Care for <em>Your Wellbeing</em></h2>
+        <p>From preventive care to specialised treatments, we offer a wide range of services to support your health at every stage of life.</p>
+      </div>
+
+      <ul class="service-grid">
+        <li data-reveal style="--d:0s"><a class="service-card service-card--pink" href="services.html#womens-wellness">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-flower"></use></svg></span>
+          <h3>Women’s Wellness</h3><p>Support for physical, emotional and reproductive health.</p>
+          <span class="service-card__arrow"><span class="sr-only">Learn more about Women’s Wellness</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span></a></li>
+        <li data-reveal style="--d:.08s"><a class="service-card" href="services.html#family-planning">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"></use></svg></span>
+          <h3>Family Planning</h3><p>Personalised family planning options, information and advice.</p>
+          <span class="service-card__arrow"><span class="sr-only">Learn more about Family Planning</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span></a></li>
+        <li data-reveal style="--d:.16s"><a class="service-card service-card--pink" href="services.html#antenatal-care">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-baby"></use></svg></span>
+          <h3>Antenatal Care</h3><p>Guidance and support throughout the pregnancy journey.</p>
+          <span class="service-card__arrow"><span class="sr-only">Learn more about Antenatal Care</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span></a></li>
+        <li data-reveal style="--d:.24s"><a class="service-card" href="services.html#general-health">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-stethoscope"></use></svg></span>
+          <h3>General Health</h3><p>Consultations, treatment and ongoing care for you and your family.</p>
+          <span class="service-card__arrow"><span class="sr-only">Learn more about General Health</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span></a></li>
+        <li data-reveal style="--d:.32s"><a class="service-card service-card--pink" href="services.html#testing-screening">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-test-tube"></use></svg></span>
+          <h3>Testing &amp; Screening</h3><p>HIV and STI testing, COVID testing, Pap smears, pregnancy tests and other available screenings.</p>
+          <span class="service-card__arrow"><span class="sr-only">Learn more about Testing and Screening</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span></a></li>
+        <li data-reveal style="--d:.4s"><a class="service-card" href="services.html#skin-aesthetic">
+          <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"></use></svg></span>
+          <h3>Skin &amp; Aesthetic Care</h3><p>Skin health, skincare and available aesthetic treatments.</p>
+          <span class="service-card__arrow"><span class="sr-only">Learn more about Skin and Aesthetic Care</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span></a></li>
+      </ul>
+
+      <div class="center-cta" data-reveal>
+        <a class="btn btn--outline btn--lg" href="services.html">View All Services <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about" aria-labelledby="about-title">
+    <span class="blob" style="right:-5rem;top:2.5rem;width:18rem;height:18rem;background:rgba(214,242,239,.7)" aria-hidden="true"></span>
+    <div class="container about__grid">
+      <div class="about__media" data-reveal="zoom">
+        <div class="about__image">
+          <div class="img-slot" data-slot="about" data-alt="A healthcare worker typing on a laptop with a stethoscope resting on the desk">
+            <div class="placeholder" role="img" aria-label="Image placeholder: welcoming clinic reception or waiting area with soft pink and teal accents">
+              <span class="placeholder__badge"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-image"></use></svg></span>
+              <span class="placeholder__tag">Image placeholder</span>
+              <span class="placeholder__hint">Welcoming clinic reception or waiting area with soft pink and teal accents.</span>
+              <span class="placeholder__file">Add <code>assets/images/about.jpg</code>, then set it in <code>js/config.js</code></span>
+            </div>
+          </div>
+        </div>
+        <p class="about__script float" aria-hidden="true">Healthy today, brighter tomorrow</p>
+      </div>
+
+      <div>
+        <p class="eyebrow" data-reveal>About Us</p>
+        <h2 id="about-title" data-reveal style="--d:.08s">Your Health. <span class="accent">Our Priority.</span></h2>
+        <p class="about__text" data-reveal style="--d:.16s">At Sr. Eve’s Clinic, we are committed to providing high-quality, compassionate and affordable healthcare for women and families. Our team is dedicated to supporting your wellbeing through personalised care, professional advice and a respectful approach to every visit.</p>
+        <div class="about__cta" data-reveal style="--d:.24s">
+          <a class="btn btn--outline btn--lg" href="#team" aria-label="Learn more about Sr. Eve’s Clinic and our team">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
+          <svg class="about__heart float" aria-hidden="true" viewBox="0 0 120 70"><use href="#heartline"></use></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CLINIC HOURS ===================== -->
+  <div class="hours-wrap">
+    <section class="hours" id="hours" aria-labelledby="hours-title" data-reveal>
+      <svg class="deco" aria-hidden="true" viewBox="0 0 120 200"><use href="#sprig"></use></svg>
+      <div class="hours__intro">
+        <span class="hours__clock"><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg></span>
+        <div><h2 id="hours-title">Clinic Hours</h2><p>We’re here when you need us.</p></div>
+      </div>
+      <div class="hours__slot">
+        <svg class="icon" aria-hidden="true"><use href="#i-calendar-days"></use></svg>
+        <div><p class="hours__label">Monday – Friday</p><p class="hours__time">08:30 – 19:00</p></div>
+      </div>
+      <div class="hours__slot">
+        <svg class="icon" aria-hidden="true"><use href="#i-calendar-days"></use></svg>
+        <div><p class="hours__label">Saturday – Sunday</p><p class="hours__time">09:00 – 14:00</p></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===================== TEAM ===================== -->
+  <section class="section team" id="team" aria-labelledby="team-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow--center">Our Team</p>
+        <h2 class="section-title" id="team-title">Meet the people <em>caring for you</em></h2>
+        <p>Our practitioners are here to listen, advise and support you and your family. Profiles will be added once verified details are supplied.</p>
+      </div>
+
+      <!--
+        TEAM PLACEHOLDERS. Replace each <li> below with a real, verified practitioner:
+        photo (assets/images/…), name, registered professional title, qualifications,
+        areas of practice and a short bio. Delete the "Placeholder" badge and add the
+        class team-card--real to the <article> for a solid border. Do not invent credentials.
+      -->
+      <ul class="team-grid">
+        <li data-reveal style="--d:0s"><article class="team-card">
+          <span class="team-card__badge">Placeholder</span>
+          <div class="team-card__photo" role="img" aria-label="Photograph to be supplied"><svg class="icon" aria-hidden="true"><use href="#i-user"></use></svg></div>
+          <div class="team-card__body">
+            <h3>Team member name</h3><p class="team-card__title">Verified professional title</p>
+            <dl><div><dt>Qualifications</dt><dd>Qualifications to be supplied by the clinic</dd></div><div><dt>Areas of practice</dt><dd>Areas of practice to be supplied</dd></div></dl>
+            <p class="team-card__bio">A short biography will appear here once the clinic supplies verified details.</p>
+          </div></article></li>
+        <li data-reveal style="--d:.12s"><article class="team-card">
+          <span class="team-card__badge">Placeholder</span>
+          <div class="team-card__photo" role="img" aria-label="Photograph to be supplied"><svg class="icon" aria-hidden="true"><use href="#i-user"></use></svg></div>
+          <div class="team-card__body">
+            <h3>Team member name</h3><p class="team-card__title">Verified professional title</p>
+            <dl><div><dt>Qualifications</dt><dd>Qualifications to be supplied by the clinic</dd></div><div><dt>Areas of practice</dt><dd>Areas of practice to be supplied</dd></div></dl>
+            <p class="team-card__bio">A short biography will appear here once the clinic supplies verified details.</p>
+          </div></article></li>
+        <li data-reveal style="--d:.24s"><article class="team-card">
+          <span class="team-card__badge">Placeholder</span>
+          <div class="team-card__photo" role="img" aria-label="Photograph to be supplied"><svg class="icon" aria-hidden="true"><use href="#i-user"></use></svg></div>
+          <div class="team-card__body">
+            <h3>Team member name</h3><p class="team-card__title">Verified professional title</p>
+            <dl><div><dt>Qualifications</dt><dd>Qualifications to be supplied by the clinic</dd></div><div><dt>Areas of practice</dt><dd>Areas of practice to be supplied</dd></div></dl>
+            <p class="team-card__bio">A short biography will appear here once the clinic supplies verified details.</p>
+          </div></article></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== CALL TO ACTION ===================== -->
+  <section class="cta" aria-labelledby="cta-title">
+    <svg class="cta__waves" aria-hidden="true" viewBox="0 0 1440 220" preserveAspectRatio="none">
+      <path d="M0 120 C220 40 420 200 700 150 C980 100 1180 190 1440 90 L1440 220 L0 220Z" fill="#e6338b" opacity=".85"/>
+      <path d="M0 160 C260 110 480 230 760 180 C1040 130 1240 210 1440 150 L1440 220 L0 220Z" fill="#0d6667" opacity=".9"/>
+      <path d="M0 190 C300 160 520 230 820 200 C1100 170 1280 225 1440 190 L1440 220 L0 220Z" fill="#45b5b0" opacity=".6"/>
+    </svg>
+    <svg class="deco deco--1 float" aria-hidden="true" viewBox="0 0 120 200"><use href="#sprig"></use></svg>
+    <svg class="deco deco--2 float float--slow" aria-hidden="true" viewBox="0 0 120 200"><use href="#sprig"></use></svg>
+    <div class="container cta__inner">
+      <div class="cta__copy" data-reveal>
+        <svg class="cta__heart" aria-hidden="true" viewBox="0 0 120 70"><use href="#heartline"></use></svg>
+        <div>
+          <h2 id="cta-title">Take the Next Step for Your Health</h2>
+          <p>Book your appointment today and let us support you on your journey to better health.</p>
+        </div>
+      </div>
+      <div class="cta__action" data-reveal style="--d:.15s">
+        <a class="btn btn--white btn--lg" href="#contact" data-book><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"></use></svg> Book an Appointment <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow--center">Contact</p>
+        <h2 class="section-title" id="contact-title">We’d love to <em>hear from you</em></h2>
+        <p>Questions about an appointment or our services? Get in touch and the clinic will respond.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__stack" data-reveal="left">
+          <!-- Details below come from js/config.js. Until supplied, the "to be confirmed" text stays. -->
+          <ul class="contact-list">
+            <li><span class="contact-list__icon"><svg class="icon" aria-hidden="true"><use href="#i-map-pin"></use></svg></span>
+              <div><p class="contact-list__label">Physical address</p><p class="contact-list__value" data-contact="address"><span class="tbc">Address to be confirmed by the clinic</span></p></div></li>
+            <li><span class="contact-list__icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg></span>
+              <div><p class="contact-list__label">Telephone</p><p class="contact-list__value" data-contact="phone"><span class="tbc">Telephone number to be confirmed by the clinic</span></p></div></li>
+            <li><span class="contact-list__icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg></span>
+              <div><p class="contact-list__label">Email</p><p class="contact-list__value" data-contact="email"><span class="tbc">Email address to be confirmed by the clinic</span></p></div></li>
+            <li><span class="contact-list__icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg></span>
+              <div><p class="contact-list__label">Business hours</p>
+                <dl class="hours-dl contact-list__value"><div><dt>Monday – Friday</dt><dd>08:30 – 19:00</dd></div><div><dt>Saturday – Sunday</dt><dd>09:00 – 14:00</dd></div></dl></div></li>
+            <li data-contact="whatsapp" hidden></li>
+          </ul>
+
+          <div class="map" id="map">
+            <div class="map__empty"><div><svg class="icon" aria-hidden="true"><use href="#i-map-pin"></use></svg><strong>Google Maps location</strong>Map to be added once the clinic confirms its address.</div></div>
+          </div>
+        </div>
+
+        <div data-reveal="right">
+          <div class="form-panel">
+            <h3>Send us a <span class="accent">message</span></h3>
+            <div id="contact-form-host">
+              <form id="contact-form" novalidate aria-label="Contact form"></form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <span class="footer__logo"><span class="logo" data-logo><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Sr. Eve’s<small>Clinic</small></span></span></span>
+      <p>Personalised, respectful women’s and family healthcare in a safe and supportive environment.</p>
+    </div>
+    <nav aria-label="Footer quick links">
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#team">Our Team</a></li>
+        <li><a href="patient-information.html">Patient Information</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer services">
+      <h2>Services</h2>
+      <ul>
+        <li><a href="services.html#womens-wellness">Women’s Wellness</a></li>
+        <li><a href="services.html#family-planning">Family Planning</a></li>
+        <li><a href="services.html#antenatal-care">Antenatal Care</a></li>
+        <li><a href="services.html#general-health">General Health</a></li>
+        <li><a href="services.html#testing-screening">Testing &amp; Screening</a></li>
+        <li><a href="services.html#skin-aesthetic">Skin &amp; Aesthetic Care</a></li>
+        <li><a href="services.html"><strong>All services</strong></a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Contact &amp; hours</h2>
+      <ul class="footer__contact">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg><span data-contact="phone"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li data-contact="whatsapp" hidden></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg><span data-contact="email"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-map-pin"></use></svg><span data-contact="address"><span class="footer__tbc">To be confirmed</span></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg><dl><div><dt>Monday – Friday</dt><dd>08:30 – 19:00</dd></div><div><dt>Saturday – Sunday</dt><dd>09:00 – 14:00</dd></div></dl></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>© <span data-year>2026</span> Sr. Eve’s Clinic. All rights reserved.</p>
+      <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li></ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
